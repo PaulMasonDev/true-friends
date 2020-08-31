@@ -5,7 +5,7 @@ import './header.styles.scss';
 const Header = () => (
   <div className="header">
     <ul className="menu-items">
-      <li>true-friend</li>
+      <li>true-friends</li>
       <li>Login</li>
       <li>Signup</li>
       <li>About</li>

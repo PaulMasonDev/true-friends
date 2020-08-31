@@ -1,10 +1,12 @@
 import React from 'react'
-//NEED TO ADD 'ADD ITEM' AND 'ITEM LIST' components.
+
+import AddItem from '../add-item/add-item.component';
+import ItemList from '../item-list/item-list.component';
 
 const DisplayOccasionItems = () => (
   <div className="display-occasion-items">
-    <div className="add-item">Add Item</div> 
-    <div className="item-list">Item List</div>
+    <AddItem /> 
+    <ItemList />
   </div>
 );
 
