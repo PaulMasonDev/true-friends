@@ -1,0 +1,14 @@
+$primary-color: rgb(77, 88, 192);
+$text-color: white;
+
+.header {
+  color: $text-color;
+  background-color: $primary-color;
+
+  .menu-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
