@@ -5,9 +5,9 @@ import Display from '../../components/display/display.component';
 
 import './homepage.styles.scss';
 
-const HomePage = () => (
+const HomePage = (props) => (
   <div className="homepage">
-    <Names />
+    <Names data={props.data}/>
     <Display />
   </div>
 )

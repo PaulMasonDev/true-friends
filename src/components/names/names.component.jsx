@@ -5,10 +5,9 @@ import NameList from '../name-list/name-list.component';
 
 import './names.styles.scss';
 
-const Names = () => (
+const Names = (props) => (
   <div className="names">
-    <NameSearch />
-    <NameList />
+    <NameSearch data={props.data}/>
   </div>
 )
 
